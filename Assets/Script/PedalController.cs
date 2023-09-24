@@ -18,7 +18,6 @@ public class PedalController : MonoBehaviour
 
     void Update()
     {
-
         Vector2 movement = GetInput();
         MoveObject(movement);
     }
@@ -38,6 +37,7 @@ public class PedalController : MonoBehaviour
 
     private void MoveObject(Vector2 movement)
     {
+        Debug.Log($"TEST: {movement}");
         rig.velocity = movement;
     }
 }
