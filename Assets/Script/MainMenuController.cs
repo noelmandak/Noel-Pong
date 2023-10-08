@@ -7,8 +7,15 @@ public class MainMenuController : MonoBehaviour
 {
     public void PlayGame()
     {
-        Debug.Log("Created by Noel");
         SceneManager.LoadScene("Game");
+    }
+    public void BactToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+    public void Credit()
+    {
+        SceneManager.LoadScene("Credit");
     }
 
     public void OpenAuthor()

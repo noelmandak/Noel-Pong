@@ -39,4 +39,5 @@ public class PedalController : MonoBehaviour
     {
         rig.velocity = movement;
     }
+
 }
